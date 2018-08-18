@@ -1,0 +1,30 @@
+{
+  "name": "test-builder",
+  "version": "1.0.0",
+  "description": "testing scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "anastasia",
+  "license": "MIT",
+  "bin": {
+    "ginit": "./index.js"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0"
+  },
+  "dependencies": {
+    "@octokit/rest": "^15.10.0",
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^4.0.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.1.0",
+    "lodash": "^4.17.10",
+    "minimist": "^1.2.0",
+    "simple-git": "^1.96.0",
+    "touch": "^3.1.0"
+  }
+}
